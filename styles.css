@@ -2,11 +2,15 @@
     --branco: #FFFFFF;
     --cinza: #AEB2AE;
     --fundo: #000000;
+    --fonte-principal: 'Inter';
 }
 
 body{
     background-color: var(--fundo);
     color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
 }
 
 *{
@@ -22,4 +26,15 @@ body{
 
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 28% 72%;
+}
+
+.insta_botao{
+    background-color: var(--branco);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--fundo);
+    display: block;
+    text-decoration: none;
 }
