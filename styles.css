@@ -22,7 +22,8 @@ body{
     background-image: url("alunos.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position:;
+    align-items: center;
+    text-align: center;
 }
 
 .container{
@@ -42,9 +43,42 @@ body{
 }
 
 .imagem{
-    margin: 2em 0 1em 3em;
+    margin: 0 0 0 3em;
 }
 
 .titulo{
-    margin: 3em 0 0 1em;
+    margin: 0 0 0 1em;
+}
+
+.imagem_monitores{
+    width: 50%;
+    margin: 10em 0 0 0;
+}
+
+.monitores{
+    align-items: center;
+    margin: 0 2em 0 0;
+}
+
+.descricao_titulos{
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--branco);
+}
+
+.descricao_texto{
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--cinza);
+}
+
+.rodape{
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--cinza);
+    text-align: right;
+}
+
+.texto_rodape{
+    margin: 3em 1em 1em 0;
 }
